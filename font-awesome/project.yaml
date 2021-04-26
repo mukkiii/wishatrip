@@ -1,0 +1,11 @@
+projectName: Unsaved Project
+version: 5.15.1
+icons:
+  - tripadvisor:
+      - brands
+  - youtube:
+      - brands
+  - instagram:
+      - brands
+  - facebook-messenger:
+      - brands
