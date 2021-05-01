@@ -8,7 +8,7 @@ setTimeout(function(){
 // Hamburger Menu
 const menu = document.querySelector('#menu');
 menu.addEventListener('click', function(){
-    body.classList.toggle('overlay');
+    body.classList.toggle('document-overlay');
     menu.classList.toggle('open');
     document.querySelector('#overlayMenu').classList.toggle('open');
 });
