@@ -93,3 +93,13 @@ var isIE = /MSIE|Trident/.test(ua);
 if (isIE) {
   window.scroll(0,1);
 }
+
+//Form ELement Focus
+const formElem = document.querySelectorAll('.form-control');
+if (typeof(formElem) != 'undefined' && formElem != null){
+    for(let i = 0; i<formElem.length; i++){
+        formElem[i].addEventListener('click', function(){
+            this.classList.add('active');
+        });
+    }
+}
