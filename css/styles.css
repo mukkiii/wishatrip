@@ -281,3 +281,17 @@ textarea.form-control{min-height: 100px;}
 .contact-form-wrap .c-right{width: 100%;}
 .contact-form-wrap .c-right{min-height: 350px;margin-top: 20px;}
 }
+
+.fbtn{
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    padding-bottom: calc(0 + env(safe-area-inset-bottom));
+}
+.fbtn button{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffd00b;
+    border: none;
+}
